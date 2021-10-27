@@ -3,7 +3,7 @@ from typing import List
 
 class InfoMessage:
     """Информационное сообщение о тренировке."""
-    # тут можно удачно применить декоратор, возможно, но декораторы еще только будут 
+# тут можно применить декоратор, возможно, но декораторы еще только будут
     def __init__(self, training_type: str, duration: float, distance: float,
                  speed: float, calories: int) -> None:
         self.training_type = training_type
